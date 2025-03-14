@@ -1,0 +1,265 @@
+body {
+  padding-top: 80px;
+}
+
+h2, .h2 {
+	font-size: 25px;
+}
+
+.centra {
+	float: none;
+	margin: auto;
+}
+
+.navbar-inverse {
+    background-color: #FBB917;
+    border-color: #cc9100;
+}
+
+#login, #register, #mod {
+	margin-top: 100px;
+}
+
+.btn-danger, .navbar-header {
+	width: 100%;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.shopbtn {
+	background-color: #df382c;
+    border-color: #df382c;
+	margin-right: 20px;
+}
+
+.shopbtn:hover {
+    color: #ffffff;
+    background-color: #bc271c;
+    border-color: #b3251b;
+}
+
+.setcarticon {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 100px;
+}
+
+.setcarticon img {
+	width: 200px;
+    height: 200px;
+	margin: 30px auto;
+	display: block;
+    opacity: .7;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+.nav-tabs > li > a {
+    color: #fbb917;
+}
+
+pre {
+	white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.orderlist {
+	max-height: 450px;
+	width: 270px;
+    overflow-y: scroll;
+}
+
+#vistaPrenotazioniUtente button {
+	margin-right: 15px;
+}
+
+.setcarticon p {
+	text-align: center;
+    color: #a0a0a0;
+	font-size: 35px;
+}
+
+.setcarticon a {
+	font-size: 20px;
+    color: #fff;
+    background-color: #fbb917;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none!important;
+}
+
+
+input[type="number"] {
+	-webkit-appearance: textfield;
+	-moz-appearance: textfield;
+	appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+}
+
+.number-input {
+	border: 2px solid #ddd;
+	display: inline-flex;
+	margin-top: 30px;
+}
+
+.number-input,
+.number-input * {
+	box-sizing: border-box;
+}
+
+.setprice p {
+	font-size: 23px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.number-input button {
+	outline:none;
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: none;
+	align-items: center;
+	justify-content: center;
+	width: 3rem;
+	height: 3rem;
+	cursor: pointer;
+	margin: 0;
+	position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+	display: inline-block;
+	position: absolute;
+	content: '';
+	width: 1rem;
+	height: 2px;
+	background-color: #212121;
+	transform: translate(-50%, -50%);
+}
+.number-input button.plus:after {
+	transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+	font-family: sans-serif;
+	max-width: 5rem;
+	padding: .5rem;
+	border: solid #ddd;
+	border-width: 0 2px;
+	font-size: 2rem;
+	height: 3rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+.setbg {
+	height: 100px;
+    width: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.setcart {
+	background-color: #cc9100!important;
+    margin-left: 10px!important;
+    margin-right: -15px;
+}
+
+#tot {
+    float: left;
+    margin-top: 0;
+    margin-bottom: 30px;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.pagamento {
+    float: right;
+    padding: 2px 10px;
+    border: 1px solid #38b44a;
+    border-radius: 4px;
+    margin-top: 7px;
+    color: #38b44a;
+}
+.pagamento1 {
+    float: right;
+    padding: 2px 10px;
+    border: 1px solid red;
+    border-radius: 4px;
+    margin-top: 7px;
+    color: red;
+}
+.attesa {
+	float: right;
+	margin-top: 5px;
+	font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+hr {
+	width: 100%;
+}
+
+.fixtop {
+	margin-top: 12px;
+}
+
+.setmain {
+	background-color: #cc9100!important;
+    margin-right: 10px;
+}
+
+#vistaDatiRistorante h1 {
+	margin-top: 40px;
+}
+
+@media (min-width:992px) {
+	#fissato {
+		margin-top: 63px;
+		position: fixed;
+	}
+	
+	#visibile{
+		display: none;
+	}
+}
+
+#sel {
+	background-color: yellow;
+}
+
+#rosso {
+	color: red;
+    margin: 5px 0;
+    display: block;
+}
+
+img {
+	width: 100%;
+	height: 75%;
+}
+
+#db {
+	font-size: 70%;
+}
+
+@media (max-width:992px) {
+	#login {
+		padding: 1%;
+	}
+}

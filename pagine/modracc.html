@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Modifica nome e cognome | Fast Food</title>
+
+  <!-- //////////////// CSS -->
+
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap-united.css" rel="stylesheet">
+
+  <script src="../js/ristoranti.json"></script>
+  <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+<script src="../script/stampanavbar.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="../script/modracc.js"></script>
+
+</head>
+<body onload=" stampaNavbar();">
+
+  <!-- //////////////// NAVBAR -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <div class="container-fluid">
+
+  <div class="navbar-header">
+      <a class='navbar-brand setmain' href='index.html'> <span class='glyphicon glyphicon-home'></span> Fast Food</a>
+    <div class="pull-right">
+      
+    <a class='navbar-brand' href='login.html'><small> <span  class='glyphicon glyphicon-user'></span><span id="navbarstampa"></span></small></a>
+    <a class='navbar-brand setcart' href='carrello.html'><small><span  class='glyphicon glyphicon-shopping-cart'></span></small></a>
+    </div>
+  </div>
+
+  </div> <!-- <div class="container-fluid"> -->
+  </div> <!-- <div class="container"> -->
+  </nav> <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+
+<!-- //////////////// CONTENT -->
+
+<div class="container" id="mod">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-8 centra">
+
+  <div class="panel panel-default">
+
+    <div class="panel-heading">
+    <h2>Modifica dati azienda</h2>
+    </div>
+
+    <div class="panel-body">
+
+      <form method="post" name="modifica" >
+
+        <div class="form-group">
+        <label>Nome e cognome titolare*</label>
+        <input class="form-control" type="text" name="nomecognome" id="titolare" minlength="2" maxlength="30" placeholder="Nome e cognome" required>
+        </div>
+
+        <div class="form-group">
+        <label>Password*</label>
+        <input class="form-control" type="password" name="password" id="titpass" minlength="8" maxlength="24" placeholder="Password" required>
+        </div>
+
+        <div class="form-group">
+        <label>Indirizzo*</label>
+        <input class="form-control" type="text" name="indirizzo" id="indirizzo" minlength="2" maxlength="30" placeholder="Indirizzo" required>
+        </div>
+
+        <div class="form-group">
+        <label>Telefono*</label>
+        <input class="form-control" type="text" name="telefono" id="telefono" minlength="9" maxlength="11" placeholder="Telefono" required>
+        </div>
+
+        <div class="form-group">
+        <label>Nome Azienda*</label>
+        <input class="form-control" type="text" name="nomeazienda" id="nomeazienda" minlength="2" maxlength="30" placeholder="Nome azienda" required>
+        </div>
+        <div class="form-group" name="foto" required>
+                <label>Tipo di foto profilo*:</label>
+                <select id="foto">
+                    <option value="sushizero.jpg">Sushi</option>
+                    <option value="motta.png">Pizzeria</option>
+                    <option value="muccala.jpg">Carne</option>
+                    <option value="gnoccheria.jpg">Pasta</option>
+                    <option value="branziono.jpg">Pesce</option>
+                    <option value="7.jpg">Brezel</option>
+                    <option value="spaghettisoia.jpg">Cinese</option>
+                    <option value="involtini.jpg">Insalata</option>
+                    <option value="2.png">Italiana</option>
+                </select>
+            </div>
+
+        <div class="form-group" name="tipo" required>
+                <label>Tipo di ristorante*:</label>
+                <select id="tipo">
+                    <option value="Pizza">Pizza</option>
+                    <option value="Italiana">Italiana </option>
+                    <option value="Carne">Carne</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Insalata">Insalata</option>
+                    <option value="Pesce">Pesce</option>
+                    <option value="Giapponese">Giapponese</option>
+                    <option value="Cinese">Cinese</option>
+                    <option value="Indiano">Indiano</option>
+                    <option value="Brezel">Brezel</option>
+                </select>
+            </div>
+            <div class="form-group"  name="prezzo" required>
+                <label>Prezzo*:</label>
+                <select id="prezzo">
+                    <option value="€">€</option>
+                    <option value="€€">€€</option>
+                    <option value="€€€">€€€</option>
+                </select>
+            </div>
+            <div class="form-group" name="stelle" required>
+                <label>stelle*:</label>
+                <select id="stelle">
+                    <option value="0.5">0.5</option>
+                    <option value="1">1</option>
+                    <option value="1.5">1.5</option>
+                    <option value="2">2</option>
+                    <option value="2.5">2.5</option>
+                    <option value="3">3</option>
+                    <option value="3.5">3.5</option>
+                    <option value="4">4</option>
+                    <option value="4.5">4.5</option>
+                    <option value="5">5</option>
+
+                </select>
+            </div>
+            <div class="form-group">
+        <label>tempo di attesa medio per la preparazione di un piatto in minuti*</label>
+        <input class="form-control" type="text" name="tempoattesa" id="tempoattesa" minlength="1" maxlength="3" placeholder="Tempo di attesa" required>
+        </div>
+
+        <div class="form-group">
+        <label>Partita Iva*</label>
+        <input class="form-control" type="text" name="partitaiva" id="piva" minlength="10" maxlength="11" placeholder="Partita iva" required>
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+         <div class="col-md-7 col-sm-6">
+            <button type="submit" class="btn btn-block btn-success" onclick="modificaDati();"><span class="glyphicon glyphicon-edit"></span> MODIFICA</button><br/>
+          </div>
+          <div class="col-md-5 col-sm-6">
+            <button type="reset" class="btn btn-block btn-default"><span class="glyphicon glyphicon-refresh"></span> Cancella</button>
+          </div>
+          </div>
+        </div>
+
+      </form>
+
+      <small>*campo obbligatorio</small>
+
+    </div> <!-- <div class="panel-body"> -->
+
+  </div> <!-- <div class="panel panel-default"> -->
+
+  <button onclick="location.href='ristoaccount.html';" class="btn btn-danger"><span class="glyphicon glyphicon-chevron-left"></span> Torna indietro senza modificare</button>
+
+</div> <!-- <div class="col-md-6"> -->
+</div> <!-- <div class="row"> -->
+</div> <!-- <div class="container"> -->
+
+<!-- //////////////// JAVASCRIPT -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.js"><\/script>')</script>
+<script src="../js/vendor/bootstrap.min.js"></script>
+<script src="../js/vendor/plugins.js"></script>
+
+</body>
+</html>

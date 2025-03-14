@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Modifica Password | Fast Food</title>
+
+  <!-- //////////////// CSS -->
+
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
+  <link href="../css/bootstrap-united.css" rel="stylesheet">
+
+  <script src="../js/ristoranti.json"></script>
+  <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <script src="../script/stampanavbar.js"></script>
+
+
+<script src="../script/modpwd.js"></script>
+
+</head>
+<body onload="getFromUrl(); stampaNavbar();">
+
+  <!-- //////////////// NAVBAR -->
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <div class="container-fluid">
+
+  <div class="navbar-header">
+      <a class='navbar-brand setmain' href='index.html'> <span class='glyphicon glyphicon-home'></span> Fast Food</a>
+    <div class="pull-right">
+      
+    <a class='navbar-brand' href='login.html'><small> <span  class='glyphicon glyphicon-user'></span><span id="navbarstampa"></span></small></a>
+    <a class='navbar-brand setcart' href='carrello.html'><small><span  class='glyphicon glyphicon-shopping-cart'></span></small></a>
+    </div>
+  </div>
+
+  </div> <!-- <div class="container-fluid"> -->
+  </div> <!-- <div class="container"> -->
+  </nav> <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+
+<!-- //////////////// CONTENT -->
+
+<div class="container" id="mod">
+<div class="row">
+<div class="col-lg-4 col-md-6 col-sm-8 centra">
+
+  <div class="panel panel-default">
+
+    <div class="panel-heading">
+    <h2>Modifica Password</h2>
+    </div>
+
+    <div class="panel-body">
+
+      <form method="post" name="modifica" onSubmit="return modificaDati();">
+
+        <div class="form-group">
+          <label>Password*</label>
+          <input class="form-control" type="password" name="password" placeholder="Nuova password" required="">
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+         <div class="col-md-7 col-sm-6">
+            <button type="submit" class="btn btn-block btn-success">MODIFICA <span class="glyphicon glyphicon-edit"></span></button><br/>
+          </div>
+         <div class="col-md-5 col-sm-6">
+            <button type="reset" class="btn btn-block btn-default">Cancella <span class="glyphicon glyphicon-refresh"></span></button>
+          </div>
+          </div>
+        </div>
+
+      </form>
+
+      <small>*campo obbligatorio</small>
+
+    </div> <!-- <div class="panel-body"> -->
+
+  </div> <!-- <div class="panel panel-default"> -->
+
+  <button onclick="location.href='account.html';" class="btn btn-danger"><span class="glyphicon glyphicon-chevron-left"></span> Torna indietro senza modificare</button>
+
+</div> <!-- <div class="col-md-6"> -->
+</div> <!-- <div class="row"> -->
+</div> <!-- <div class="container"> -->
+
+<!-- //////////////// JAVASCRIPT -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.js"><\/script>')</script>
+<script src="../js/vendor/bootstrap.min.js"></script>
+<script src="../js/vendor/plugins.js"></script>
+
+</body>
+</html>

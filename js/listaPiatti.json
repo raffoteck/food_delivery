@@ -1,0 +1,327 @@
+listaPiatti=
+{
+		"primi":
+	[
+		{ "qt":0,
+		"nome":"Spaghetti alle vongole",
+		  "ingredienti":["spaghetti","vongole", "aglio", "pepe"],
+		  "costo":"9.5",
+		  "foto": "spaghettivongole.jpg"
+		},
+		{ "qt":0,
+		"nome":"Pizza Ortolana",
+		  "ingredienti":["mozzarella","sugo", "peperoni", "melanzane", "zucchine"],
+		  "costo":"7.5",
+		  "foto": "pizzaortolana.jpg"
+		},
+		{ "qt":0,
+		"nome":"Pizza Bufalina",
+		  "ingredienti":["bufala","sugo"],
+		  "costo":"6",
+		  "foto": "bufalina.jpg"
+		},
+		{ "qt":0,
+		"nome":"Spaghetti alla Carbonara",
+		  "ingredienti":["pasta","guanciale", "uova", "pecorino", "pepe"],
+		  "costo":"8.5",
+		  "foto": "carbonara.jpg"
+		},
+		{ "qt":0,
+		"nome":"Spaghetti all'Amatriciana",
+		  "ingredienti":["pasta","sugo", "guanciale", "peperoncino"],
+		  "costo":"8",
+		  "foto": "amatriciana.jpg"
+		},
+		{ "qt":0,
+		"nome":"Spaghetti di Soia",
+		  "ingredienti":["pasta","peperoni", "soia", "carote", "carne", "cipolla", "peperoncino"],
+		  "costo":"7.5",
+		  "foto": "spaghettisoia.jpg"
+		},
+		{ "qt":0,
+		"nome":"McChicken",
+		  "ingredienti":["pane","carne", "salsa", "insalata"],
+		  "costo":"3",
+		  "foto": "mcchicken.jpg"
+		},
+		{ "qt":0,
+			"nome":"Crispy McBacon",
+		  "ingredienti":["pane","sottiletta", "carne", "salsa", "bacon"],
+		  "costo":"4.5",
+		  "foto": "crispymcbacon.jpg"
+		},
+		{ "qt":0,
+		"nome":"Mc Wrap",
+		  "ingredienti":["piadina","carne", "salsa", "insalata"],
+		  "costo":"3",
+		  "foto": "mcwrap.jpg"
+		},
+		{ "qt":0,
+		"nome":"Margherita",
+		  "ingredienti":["mozzarella","sugo"],
+		  "costo":"4.5",
+		  "foto": "margherita.jpg"
+		},
+		{ "qt":0,
+		"nome":"Americana",
+		  "ingredienti":["mozzarella","sugo","patatine","wurstel"],
+		  "costo":"6.5",
+		  "foto": "americana.jpg"
+		},
+		{ "qt":0,
+		"nome":"Riso alla Cantonese",
+		  "ingredienti":["riso","prosciutto","piselli","uova"],
+		  "costo":"3.5",
+		  "foto": "cantonese.jpg"
+		},
+		{ "qt":0,
+		"nome":"Nigiri sushi",
+		  "ingredienti":["pesce", "alghe nori", "uova", "avocado"],
+		  "costo":"4.5",
+		  "foto": "nigiri.jpg"
+		},
+		{ "qt":0,
+		"nome":"Gnocchi al ragù di carne Chianina",
+		  "ingredienti":["pasta","carne"],
+		  "costo":"11.5",
+		  "foto": "gnocchiragu.jpg"
+		},
+		{ "qt":0,
+		"nome":"Gnocchi con zucchine, guanciale e scaglie di pecorino romanoo",
+		  "ingredienti":["pasta","zucchine", "guanciale", "pecorino"],
+		  "costo":"10.5",
+		  "foto": "gnocchizucchine.jpg"
+		},
+		{ "qt":0,
+		"nome":"Spaghetti Meatballs",
+		  "ingredienti":["pasta","sugo", "carne"],
+		  "costo":"8.5",
+		  "foto": "spaghettimeatballs.jpg"
+		},
+		{ "qt":0,
+		"nome":"Macaroni and Cheese",
+		  "ingredienti":["pasta","formaggio"],
+		  "costo":"7.5",
+		  "foto": "macaroni.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"Insalata di Polipo",
+		  "ingredienti":["polipo", "carote", "sedano", "aglio"],
+		  "costo":"6.5",
+		  "foto": "polipo.jpg"
+		},
+		{ "qt":0,
+		"nome":"Fritto Misto",
+		  "ingredienti":["gamberetti", "acciughe", "calamari"],
+		  "costo":"5.5",
+		  "foto": "frittomisto.jpg"
+		},
+		{ "qt":0,
+		"nome":"Cotoletta alla Milanese",
+		  "ingredienti":["carne"],
+		  "costo":"5.5",
+		  "foto": "cotolettamilanese.jpg"
+		},
+		{ "qt":0,
+		"nome":"Surimi",
+		  "ingredienti":["surimi"],
+		  "costo":"3.5",
+		  "foto": "surimi.jpg"
+		},
+		{ "qt":0,
+		"nome":"Olive all'ascolana",
+		  "ingredienti":["carne", "olive", "pangrattato"],
+		  "costo":"3.5",
+		  "foto": "oliveascolana.jpg"
+		},
+		{ "qt":0,
+		"nome":"Branzino al forno",
+		  "ingredienti":["branzino"],
+		  "costo":"7.5",
+		  "foto": "branzino.jpg"
+		},
+		{ "qt":0,
+		"nome":"Panzerotti",
+		  "ingredienti":["mozzarella", "sugo"],
+		  "costo":"4.5",
+		  "foto": "panzerotti.jpg"
+		},
+		{ "qt":0,
+		"nome":"Involtini di Primavera",
+		  "ingredienti":["carne", "carote", "cipolla", "soia"],
+		  "costo":"4.5",
+		  "foto": "involtini.jpg"
+		},
+		{ "qt":0,
+		"nome":"McNuggets",
+		  "ingredienti":["carne"],
+		  "costo":"2.5",
+		  "foto": "mcnuggets.jpg"
+		},
+		{ "qt":0,
+		"nome":"Patatine",
+		  "ingredienti":["patatine"],
+		  "costo":"1.5",
+		  "foto": "patatinemc.jpg"
+		},
+		{ "qt":0,
+		"nome":"Diavola",
+		  "ingredienti":["mozzarella","sugo","salame"],
+		  "costo":"7.5",
+		  "foto": "diavola.jpg"
+		},
+		{ "qt":0,
+		"nome":"Marinara",
+		  "ingredienti":["sugo"],
+		  "costo":"3.5",
+		  "foto": "marinara.jpg"
+		},
+		{ "qt":0,
+		"nome":"Uramaki",
+		   "ingredienti":["riso","tonno","cetrioli","formaggio", "alghe nori"],
+		  "costo":"4.5",
+		  "foto": "uramaki.jpg"
+		},
+		{ "qt":0,
+		"nome":"Sashimi",
+		  "ingredienti":["salmone"],
+		  "costo":"3.5",
+		  "foto": "sashimi.jpg"
+		},
+		{ "qt":0,
+		"nome":"Risotto con porcini e mirtilli",
+		  "ingredienti":["riso", "porcini","mirtilli"],
+		  "costo":"12.5",
+		  "foto": "risottoporcini.jpg"
+		},
+		{ "qt":0,
+		"nome":"Risotto con scamorza affumicata, trevisana e speck",
+		  "ingredienti":["riso","scamorza", "trevisana", "speck"],
+		  "costo":"13.5",
+		  "foto": "risottotrevisana.jpg"
+		},
+		{ "qt":0,
+		"nome":"Costolette di maiale",
+		  "ingredienti":["carne","patatine"],
+		  "costo":"15.5",
+		  "foto": "costoletta.jpg"
+		},
+		{ "qt":0,
+		"nome":"Muccala Burger",
+		  "ingredienti":["pane","carne", "fontina", "lardo", "cipolla", "salsa"],
+		  "costo":"9.5",
+		  "foto": "burger.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"Tiramisù",
+		  "ingredienti":["savoiardi","uova", "mascarpone", "caffe", "cacao"],
+		  "costo":"3.8",
+		  "foto": "tiramisu.jpg"
+		},
+		{ "qt":0,
+		"nome":"Meringata",
+		  "ingredienti":["meringhe"],
+		  "costo":"3.5",
+		  "foto": "meringata.jpg"
+		},
+		{ "qt":0,
+		"nome":"McFlurry",
+		  "ingredienti":["gelato","cioccolato"],
+		  "costo":"2.6",
+		  "foto": "mcflurry.jpg"
+		},
+		{ "qt":0,
+		"nome":"McCrunchy",
+		  "ingredienti":["pane","nutella"],
+		  "costo":"1.5",
+		  "foto": "mccrunchy.jpg"
+		},
+		{ "qt":0,
+		"nome":"Profitteroles",
+		  "ingredienti":["cioccolato"],
+		  "costo":"3.5",
+		  "foto": "profitteroles.jpg"
+		},
+		{ "qt":0,
+		"nome":"Cheesecake",
+		  "ingredienti":["panna","fragole"],
+		  "costo":"5.5",
+		  "foto": "cheesecake.jpg"
+		},
+		{ "qt":0,
+		"nome":"Sorbetto",
+		  "ingredienti":["gelato","limone"],
+		  "costo":"1.5",
+		  "foto": "sorbetto.jpg"
+		},
+		{ "qt":0,
+		"nome":"Gelato",
+		  "ingredienti":["gelato","fragole"],
+		  "costo":"2.5",
+		  "foto": "gelato.jpg"
+		},
+		{ "qt":0,
+		"nome":"Torta Lindt",
+		  "ingredienti":["cioccolato"],
+		  "costo":"5.5",
+		  "foto": "tortalindt.jpg"
+		},
+		{ "qt":0,
+		"nome":"sorbetto",
+		  "ingredienti":["gelato","limone"],
+		  "costo":"3.5",
+		  "foto": "sorbetto.jpg"
+		},
+		{ "qt":0,
+		"nome":"macedonia",
+		  "ingredienti":["fragole","kiwi","ananas"],
+		  "costo":"4.5",
+		  "foto": "macedonia.jpg"
+		},
+		{ "qt":0,
+		"nome":"torta al cioccolato",
+		  "ingredienti":["cioccolato"],
+		  "costo":"5.5",
+		  "foto": "tortalindt.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"Fanta",
+		  "costo":"2.5",
+		  "foto": "fanta.jpg"
+		},
+		{ "qt":0,
+		"nome":"Estathè alla Pesca",
+		  "costo":"2.5",
+		  "foto": "estathe.png"
+		},
+		{ "qt":0,
+		"nome":"Birra Moretti",
+		  "costo":"3",
+		  "foto": "birra.jpg"
+		},
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"1.5",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"coca cola",
+		  "costo":"2.5",
+		  "foto": "cocacola.jpg"
+		},
+		{ "qt":0,
+		"nome":"vino",
+		  "costo":"4.5",
+		  "foto": "vino.jpg"
+		},
+	]
+}

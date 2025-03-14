@@ -1,0 +1,399 @@
+ristoranti=
+[
+
+	// ristorante1
+	{
+	"id":0,
+	"l":0,
+	"pass":"12345678",
+	"nometit":"giacomo valentino",
+	"nome":"McDonald's",
+	"tipo":["FastFood"],
+	"type":["FastFood"],
+	"luogo":"Viale Milano, Varese",
+	"telefono":"0332289259",
+	"partitaiva":"09499510155",
+	"prezzo":"€€",
+	"stelle":4.1,
+	"foto": "mcdonalds.jpg",
+	"tempoattesa":5.0,
+	"minutiattesa":0,
+	"prenotazioni":[],
+	"primi":
+	[
+		{ "qt":0,
+		"nome":"Crispy McBacon",
+		  "ingredienti":["pane","sottiletta", "carne", "salsa", "bacon"],
+		  "costo":"4.5",
+		  "foto": "crispymcbacon.jpg"
+		},
+		{ "qt":0,
+		"nome":"Mc Wrap",
+		  "ingredienti":["piadina","carne", "salsa", "insalata"],
+		  "costo":"3",
+		  "foto": "mcwrap.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"McNuggets",
+		  "ingredienti":["carne"],
+		  "costo":"2.5",
+		  "foto": "mcnuggets.jpg"
+		},
+		{ "qt":0,
+		"nome":"Patatine",
+		  "ingredienti":["patatine"],
+		  "costo":"1.5",
+		  "foto": "patatinemc.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"McFlurry",
+		  "ingredienti":["gelato","cioccolato"],
+		  "costo":"2.6",
+		  "foto": "mcflurry.jpg"
+		},
+		{ "qt":0,
+		"nome":"McCrunchy",
+		  "ingredienti":["pane","nutella"],
+		  "costo":"1.5",
+		  "foto": "mccrunchy.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"1",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"coca cola",
+		  "costo":"2",
+		  "foto": "cocacola.jpg"
+		},
+	]
+	}, // ristoranti
+
+	// ristorante2
+	{
+	"l":0,
+	"pass":"12345678",
+	"nometit":"antonio verdesca",
+	"id":1,
+	"nome":"Pizzeria Motta",
+	"tipo":["Pizzeria"],
+	"type":["Pizza"],
+	"luogo":"Piazza della Motta, Varese",
+	"telefono":"0332231800",
+	"partitaiva":"038453262718",
+	"prezzo":"€€",
+	"stelle":4.5,
+	"foto": "motta.png",
+	"prenotazioni":[],
+	"tempoattesa":7,
+	"minutiattesa":0,
+	"qt":0,
+	"primi":
+	[
+		{ "qt":0,
+		"nome":"Margherita",
+		  "ingredienti":["mozzarella","sugo"],
+		  "costo":"4.5",
+		  "foto": "margherita.jpg"
+		},
+		{ "qt":0,
+		"nome":"Americana",
+		  "ingredienti":["mozzarella","sugo","patatine","wurstel"],
+		  "costo":"6.5",
+		  "foto": "americana.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"Diavola",
+		  "ingredienti":["mozzarella","sugo","salame"],
+		  "costo":"7.5",
+		  "foto": "diavola.jpg"
+		},
+		{ "qt":0,
+		"nome":"Marinara",
+		  "ingredienti":["sugo"],
+		  "costo":"3.5",
+		  "foto": "marinara.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"Profitteroles",
+		  "ingredienti":["cioccolato"],
+		  "costo":"3.5",
+		  "foto": "profitteroles.jpg"
+		},
+		{ "qt":0,
+		"nome":"Cheesecake",
+		  "ingredienti":["panna","fragole"],
+		  "costo":"5.5",
+		  "foto": "cheesecake.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"1.5",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"vino",
+		  "costo":"4.5",
+		  "foto": "vino.jpg"
+		},
+	]
+
+	}, // ristoranti
+
+	// ristorante3
+	{
+	"l":0,
+	"pass":"12345678",
+	"nometit":"matteo bertocchi",
+	"id":2,
+	"nome":"SushiZero",
+	"tipo":["Giapponese","Cinese"],
+	"type":["Japanese","Chinese"],
+	"luogo":"Via Giuseppe Verdi, Buguggiate",
+	"telefono":"0332454153",
+	"partitaiva":"08462745283",
+	"prezzo":"€€",
+	"stelle":3.2,
+	"foto": "sushizero.jpg",
+	"tempoattesa":10,
+	"minutiattesa":0,
+	"prenotazioni":[],
+	"qt":0,
+	"primi":
+	[
+		{ "qt":0,
+		"nome":"Riso alla Cantonese",
+		  "ingredienti":["riso","prosciutto","piselli","uova"],
+		  "costo":"3.5",
+		  "foto": "cantonese.jpg"
+		},
+		{ "qt":0,
+		"nome":"Nigiri sushi",
+		  "ingredienti":["pesce", "alghe nori", "uova", "avocado"],
+		  "costo":"4.5",
+		  "foto": "nigiri.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"Uramaki",
+		   "ingredienti":["riso","tonno","cetrioli","formaggio", "alghe nori"],
+		  "costo":"4.5",
+		  "foto": "uramaki.jpg"
+		},
+		{ "qt":0,
+		"nome":"Sashimi",
+		  "ingredienti":["salmone"],
+		  "costo":"3.5",
+		  "foto": "sashimi.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"Sorbetto",
+		  "ingredienti":["gelato","limone"],
+		  "costo":"1.5",
+		  "foto": "sorbetto.jpg"
+		},
+		{ "qt":0,
+		"nome":"Gelato",
+		  "ingredienti":["gelato","fragole"],
+		  "costo":"2.5",
+		  "foto": "gelato.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"1.5",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"coca cola",
+		  "costo":"2.5",
+		  "foto": "cocacola.jpg"
+		},
+	]
+
+	}, // ristoranti
+
+	// ristorante4
+	{
+	"l":0,
+	"pass":"12345678",
+	"nometit":"paolo massima",
+	"id":0,
+	"nome":"Gnoccheria Risotteria",
+	"tipo":["Italiano","Riso","Pasta"],
+	"type":["Italian","Rice","Pasta"],
+	"luogo":"Via Carlo Cattaneo, Varese",
+	"telefono":"0332831717",
+	"partitaiva":"09473625476",
+	"prezzo":"€€",
+	"stelle":4.8,
+	"foto": "gnoccheria.jpg",
+	"tempoattesa":4,
+	"minutiattesa":0,
+	"prenotazioni":[],
+	"qt":0,
+	"primi":
+	[
+		{ "qt":0,
+		"nome":"Gnocchi al ragù di carne Chianina",
+		  "ingredienti":["pasta","carne"],
+		  "costo":"11.5",
+		  "foto": "gnocchiragu.jpg"
+		},
+		{ "qt":0,
+		"nome":"Gnocchi con zucchine, guanciale e scaglie di pecorino romanoo",
+		  "ingredienti":["pasta","zucchine", "guanciale", "pecorino"],
+		  "costo":"10.5",
+		  "foto": "gnocchizucchine.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"Risotto con porcini e mirtilli",
+		  "ingredienti":["riso", "porcini","mirtilli"],
+		  "costo":"12.5",
+		  "foto": "risottoporcini.jpg"
+		},
+		{ "qt":0,
+		"nome":"Risotto con scamorza affumicata, trevisana e speck",
+		  "ingredienti":["riso","scamorza", "trevisana", "speck"],
+		  "costo":"13.5",
+		  "foto": "risottotrevisana.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"Torta Lindt",
+		  "ingredienti":["cioccolato"],
+		  "costo":"5.5",
+		  "foto": "tortalindt.jpg"
+		},
+		{ "qt":0,
+		"nome":"sorbetto",
+		  "ingredienti":["gelato","limone"],
+		  "costo":"3.5",
+		  "foto": "sorbetto.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"2.5",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"vino",
+		  "costo":"4.5",
+		  "foto": "vino.jpg"
+		},
+	]
+	}, // ristoranti
+
+	// ristorante5
+	{
+	"l":0,
+	"pass":"12345678",
+	"nometit":"giovanni rossi",
+	"id":4,
+	"nome":"Muccala",
+	"tipo":["Italiano","Carne","FastFood"],
+	"type":["Italian","Meat","FastFood"],
+	"luogo":"Via della Novaglia, Galliate Lombardo",
+	"telefono":"0332947871",
+	"partitaiva":"08564725476",
+	"prezzo":"€€",
+	"stelle":4.5,
+	"foto": "muccala.jpg",
+	"tempoattesa":15,
+	"minutiattesa":0,
+	"prenotazioni":[],
+	"qt":0,
+	"primi":
+	[
+		{ "qt":0,
+		"nome":"Spaghetti Meatballs",
+		  "ingredienti":["pasta","sugo", "carne"],
+		  "costo":"8.5",
+		  "foto": "spaghettimeatballs.jpg"
+		},
+		{ "qt":0,
+		"nome":"Macaroni and Cheese",
+		  "ingredienti":["pasta","formaggio"],
+		  "costo":"7.5",
+		  "foto": "macaroni.jpg"
+		},
+	],
+	"secondi":
+	[
+		{ "qt":0,
+		"nome":"Costolette di maiale",
+		  "ingredienti":["carne","patatine"],
+		  "costo":"15.5",
+		  "foto": "costoletta.jpg"
+		},
+		{ "qt":0,
+		"nome":"Muccala Burger",
+		  "ingredienti":["pane","carne", "fontina", "lardo", "cipolla", "salsa"],
+		  "costo":"9.5",
+		  "foto": "burger.jpg"
+		},
+	],
+	"dessert":
+	[
+		{ "qt":0,
+		"nome":"macedonia",
+		  "ingredienti":["fragole","kiwi","ananas"],
+		  "costo":"4.5",
+		  "foto": "macedonia.jpg"
+		},
+		{ "qt":0,
+		"nome":"torta al cioccolato",
+		  "ingredienti":["cioccolato"],
+		  "costo":"5.5",
+		  "foto": "tortalindt.jpg"
+		},
+	],
+	"bevande":
+	[
+		{ "qt":0,
+		"nome":"acqua",
+		  "costo":"1.5",
+		  "foto": "acqua.jpg"
+		},
+		{ "qt":0,
+		"nome":"coca cola",
+		  "costo":"2.5",
+		  "foto": "cocacola.jpg"
+		},
+	]
+	}, // ristoranti
+]
